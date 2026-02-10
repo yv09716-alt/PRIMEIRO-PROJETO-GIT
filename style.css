@@ -1,0 +1,54 @@
+#dbc2cf, #9fa2b2, #3c7a89, #2e4756, #16262e
+
+* {
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: relative;
+    width: 100vw;
+    height: 50px;
+    background-color: #6F9469;
+}
+
+.ul-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 200px;
+}
+
+.img-nav {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin: 10px 0 10px 20px;
+}
+
+li {
+    display: inline-block;
+}
+
+h1 {
+    margin: 50px auto 50px auto;
+    width: 500px;
+    text-align: center;
+    font-size: 40px;
+}
+
+section p {
+    margin: 0 auto 50px auto;
+    width: 800px;
+    text-align: center;
+}
+img {
+    border:3px;
+    border-style:solid;
+    border-color:white;
+    border-radius:20px;
+}
+
