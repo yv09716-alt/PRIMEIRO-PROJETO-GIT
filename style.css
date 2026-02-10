@@ -1,16 +1,25 @@
-#dbc2cf, #9fa2b2, #3c7a89, #2e4756, #16262e
-
-* {
+#dbc2cf,
+#9fa2b2,
+#3c7a89,
+#2e4756,
+#16262e * {
     color: white;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(./images/5935.jpg);
+    background-position: center center;
+    background-size: cover;
 }
 
 nav {
     position: relative;
     width: 100vw;
-    height: 50px;
+    height: 80px;
     background-color: #6F9469;
     border: 3px;
     border-style: solid;
@@ -26,8 +35,8 @@ nav {
 }
 
 .img-nav {
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 60px;
     display: inline-block;
     margin: 10px 0 10px 20px;
 }
@@ -36,7 +45,7 @@ li {
     display: inline-block;
 }
 
-section{
+section {
     width: 100vw;
 }
 
@@ -45,27 +54,46 @@ h1 {
     width: 500px;
     text-align: center;
     font-size: 40px;
+    color: #ffffff;
+    -webkit-text-stroke: 1px black;
 }
 
 section p {
     margin: 0 auto 50px auto;
     width: 800px;
     text-align: center;
+    color: #ffffff;
 }
+
 .img1 {
-    border:3px;
-    border-style:solid;
-    border-color:rgb(173, 10, 10);
-    border-radius:20px;
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(223, 214, 214);
+    border-radius: 20px;
     margin: 0 auto 50px auto;
     display: block;
 }
 
-.saibamais{
+.saibamais {
+    margin: 0 auto 50px auto;
+    width: 100px;
+    display: block;
+}
+
+
+.sec3 iframe {
     margin: 0 auto 50px auto;
     text-align: center;
-    width:100px;
+    width: 560px;
     display: block;
 }
 
-.do
+.img-Wrapper {
+    margin: 0 auto 50px auto;
+    text-align: center;
+    width: 600px;
+}
+
+.img-Wrapper img {
+    display: inline-block;
+}
